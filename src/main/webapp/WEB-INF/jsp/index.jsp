@@ -4,6 +4,6 @@
         <title>Home</title>
     </head>
     <body>
-        Hello World!
+       ${msg}
     </body>
 </html>
