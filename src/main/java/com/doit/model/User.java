@@ -1,12 +1,27 @@
 package com.doit.model;
 
 public class User {
-    private final String name;
-    private final String surName;
-    private final String email;
+    private String name;
+    private String surName;
+    private String email;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurName(String surName) {
+        this.surName = surName;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getName() {
         return name;
+    }
+
+    public User() {
     }
 
     public String getSurName() {
