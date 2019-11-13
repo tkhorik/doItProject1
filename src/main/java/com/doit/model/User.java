@@ -5,6 +5,9 @@ public class User {
     private String surName;
     private String email;
 
+    public User() {
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -19,9 +22,6 @@ public class User {
 
     public String getName() {
         return name;
-    }
-
-    public User() {
     }
 
     public String getSurName() {
